@@ -1,0 +1,22 @@
+/* The base style for every product card */
+.product-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+/* The "Profit" highlight */
+.profitable {
+    background-color: #d4edda; /* Light green */
+    color: #155724;
+    border-left: 10px solid #28a745;
+}
+
+/* The "Deficit" highlight */
+.deficit {
+    background-color: #f8d7da; /* Light red */
+    color: #721c24;
+    border-left: 10px solid #dc3545;
+}
